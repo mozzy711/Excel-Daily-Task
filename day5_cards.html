@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <!-- FontAwesome -->
+        <script src="https://kit.fontawesome.com/804e8e3700.js" crossorigin="anonymous"></script>
+
+        <!-- Icons -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        
+        <title>Cards</title>
+    </head>
+
+    <body class="blue darken-4">
+        
+        <div class="container">
+            <h1 class="blue-text text-lighten-4">Cards</h1>
+
+            <!-- Row 1 -->
+            <!-- Simple Card -->
+            <div class="row">
+                <div class="col s12 m6">
+                    <div class="card blue lighten-4">
+                        <div class="card-content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, dolorum!</p>
+                        </div>
+                    </div>
+
+                    <!-- Add Color -->
+                    <div class="card pink">
+                        <div class="card-content white-text">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio, consequuntur!</p>
+                        </div>
+                    </div>   
+                </div>
+
+                <!-- Card With Title -->
+                <div class="col s12 m6">
+                    <div class="card">
+                        <div class="card-content">
+                            <span class="card-title">Card With Title</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, cum?</p>
+                        <div class="card-action">
+                            <a href="#">Read More</a>
+                            <a href="#">Read More</a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Row 2 -->
+            <div class="row">
+                <div class="col s12 m6">
+                    <div class="card">
+                        <div class="card-image ">
+                            <img src="https://get.wallhere.com/photo/sunlight-forest-nature-green-bridge-jungle-suspension-bridge-rainforest-rope-bridge-tree-leaf-track-woodland-habitat-natural-environment-nonbuilding-structure-197108.jpg" alt="">
+                            <span class="card-title">Card Image</span>
+                        </div>
+                        <div class="card-content">
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, cumque?</p>
+                            <div class="card-action">
+                                <a href="#" class="black-text card-action">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12 m6">
+                    <!-- Card With Image & Floating Button -->
+                    <div class="card">
+                        <div class="card-image">
+                            
+                            <img src="https://images.assettype.com/fortuneindia%2F2020-06%2Fef53f9be-f257-4aa3-9af5-6ca1a9f33a86%2Fclose_up_photography_of_leaves_with_droplets_807598.jpg?rect=0,607,4128,2322&w=1250&q=60" alt="">
+                            <span class="card-title">Image & Button</span>
+                            <a href="#" class="btn-floating halfway-fab waves-effect waves-light blue">
+                                <i class="material-icons">add</i>   
+                            </a>
+                            
+                        </div>
+
+                        <div class="card-content">
+                            
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, deleniti?</p>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+            
+            <!-- Horizontal Card -->
+            <div class="row">
+                <div class="col s12 m6">
+                    <div class="card horizontal">
+                        <div class="card-image">
+                            <img src="https://get.wallhere.com/photo/nature-flower-forest-flowers-ocean-river-sea-beach-water-sky-mountains-Aurora-bridges-landscape-lakes-cliffs-skyscrapers-forests-sunset-towers-skylines-fog-waterfalls-jungle-icebergs-canyons-1501189.jpg" >
+                        </div>
+                        <div class="card-stacked">
+                            <div class="card-content">
+                                <span class="card-title">Horizontal</span>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum, molestias?
+                                </p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6">
+                    <div class="card small">
+                        <div class="card-image waves-effect waves-light waves-block">
+                        <img src="https://get.wallhere.com/photo/nature-flower-forest-flowers-ocean-river-sea-beach-water-sky-mountains-Aurora-bridges-landscape-lakes-cliffs-skyscrapers-forests-sunset-towers-skylines-fog-waterfalls-jungle-icebergs-canyons-1501199.jpg" alt="" class="activator">
+                        </div>
+                        <div class="card-content"><span class="card-title activator">Card Reveal
+                            <i class="material-icons">more_vert</i>
+                        </span>
+                        </div>
+                        <!-- Inside Reveal -->
+                        <div class="card-reveal"><span class="card-title">Card Title
+                            <i class="material-icons secondary-content">close</i>
+                        </span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, nemo?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Tabbed Card -->
+            <div class="row">
+                <div class="col s12 m6">
+                    <div class="card">
+                        <div class="card-content">
+                            <span class="card-title">Tabbed Card</span>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit, inventore..</p>
+                        </div>
+                        <div class="card-tabs">
+                            <ul class="tabs tabs-fixed-width">
+                                <li class="tab">
+                                    <a href="#tab1">Tab 1</a>
+                                </li>
+                                <li class="tab">
+                                    <a href="#tab2">Tab 2</a>
+                                </li>
+                                <li class="tab">
+                                    <a href="#tab3">Tab 3</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="card-content">
+                            <div id="tab1">This is the content for tab 1</div>
+                            <div id="tab2">This is the content for tab 2</div>
+                            <div id="tab3">This is the content for tab 3</div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col s12 m3">
+                <div class="card-panel amber">
+                    <span class="white-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, laudantium.
+                    </span>
+                </div>
+                </div>
+                <div class="col s12 m3">
+                <div class="card-panel purple z-depth-2">
+                    <span class="white-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, laudantium.
+                    </span>
+                </div>
+                </div>
+                <div class="col s12 m3">
+                <div class="card-panel yellow z-depth-3">
+                    <span class="white-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, laudantium.
+                    </span>
+                </div>
+                </div>
+                <div class="col s12 m3">
+                <div class="card-panel black z-depth-4">
+                    <span class="white-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, laudantium.
+                    </span>
+                </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- JQuery CDN -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+        <script>
+            $(document).ready(function(){
+                $('.tabs').tabs();
+            })
+
+        </script>
+    </body>
+</html>
