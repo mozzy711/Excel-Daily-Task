@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/a1404e5c11.js" crossorigin="anonymous"></script>
+    <!-- Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+     <style>
+         /* .carousel{
+             height: 600px;
+             perspective: 250px;
+         }
+         .carousel .carousel-item{
+             width: 450px;
+         } */
+         
+     </style>
+     <title>Carousel</title>
+</head>
+<body class="grey darken-3">
+    <!-- Start of Container -->
+    <div class="container">
+    <!-- Carousel -->
+        <h1 class="amber-text text-lighten-2">Carousel</h1>
+
+        <div class="carousel">
+            <a href="#one" class="carousel-item"><img src="Images/Img1.jpg"></a>
+            <a href="#two" class="carousel-item"><img src="Images/Img2.jpg"></a>
+            <a href="#three" class="carousel-item"><img src="Images/Img3.jpg"></a>
+            <a href="#four" class="carousel-item"><img src="Images/Img4.jpg"></a>
+            <a href="#five" class="carousel-item"><img src="Images/Img5.jpg"></a>
+        
+        </div>
+    <!-- Full Width Slider -->
+        <br><br>
+        <h1 class="amber-text text-lighten-3">Full Width Carousel</h1>
+        <div class="carousel carousel-slider">
+            <a href="#one" class="carousel-item"><img src="Images/Img1.jpg"></a>
+            <a href="#two" class="carousel-item"><img src="Images/Img2.jpg"></a>
+            <a href="#three" class="carousel-item"><img src="Images/Img3.jpg"></a>
+            <a href="#four" class="carousel-item"><img src="Images/Img4.jpg"></a>
+            <a href="#five" class="carousel-item"><img src="Images/Img5.jpg"></a>
+        
+        </div>
+    <!-- Special Options -->
+        <br></br>
+        <h1 class="amber-text">Special Options</h1>
+        <div class="carousel carousel-slider center">
+            <div class="carousel-fixed-item center">
+                <a class="btn waves-effect white grey-text darken-text-2">Button</a>
+            </div>
+            <div class="carousel-item red white-text" href="#one!">
+                <h2>First Panel</h2>
+                <p class="white-text">This is your first panel</p>
+            </div>
+            <div class="carousel-item amber white-text" href="#two!">
+                <h2>Second Panel</h2>
+                <p class="white-text">This is your second panel</p>
+            </div>
+            <div class="carousel-item green white-text" href="#three!">
+                <h2>Third Panel</h2>
+                <p class="white-text">This is your third panel</p>
+            </div>
+            <div class="carousel-item blue white-text" href="#four!">
+                <h2>Fourth Panel</h2>
+                <p class="white-text">This is your fourth panel</p>
+            </div>
+        </div>
+
+     <!-- End of Container -->
+    </div>
+
+    
+    
+    <!-- JQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('.carousel').carousel({
+                // duration: 1000,
+                // dist: 0,
+                // shift: 10,
+                // padding: 0,
+                // numVisible: 5,
+            });
+            $('.carousel.carousel-slider').carousel({
+                fullWidth: true,
+                indicators: true
+            });
+            // setInterval(function(){
+            //     $('.carousel').carousel('next');
+            // }, 2000);
+        });
+    </script>
+    <div style="height: 1000px">
+    
+    </div>
+</body>
+</html>

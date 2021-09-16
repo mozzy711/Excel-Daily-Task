@@ -1,0 +1,16 @@
+.progress .determinate {
+    background-color: lime;
+}
+
+.progress {
+    background: lightgreen;
+
+}
+
+.indeterminate::before {
+    background-color: green !important;
+}
+.indeterminate::after {
+    background-color: green !important;
+}
+
