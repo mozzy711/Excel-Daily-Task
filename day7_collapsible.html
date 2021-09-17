@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+       <!-- FontAwesome -->
+       <script src="https://kit.fontawesome.com/804e8e3700.js" crossorigin="anonymous"></script>
+
+       <!-- Icons -->
+       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+       
+       <!-- Compiled and minified CSS -->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+            
+
+    <title>Collapsible</title>
+</head>
+<body class="blue-grey darken-4 container">
+    
+        <h1 class="grey-text lighten-4">Collapsible</h1>
+
+        <!--Collapsible-->
+        <ul class="collapsible white-text blue-grey darken-2">
+            <li>
+                <div class="collapsible-header grey darken-4">
+                    <i class="material-icons">android</i>First
+                </div>
+                <div class="collapsible-body">
+                    <span>This is the First Collapsible Area</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, et?</p>
+                </div>
+            </li>
+            
+            <li>
+                <div class="collapsible-header grey darken-4">
+                    <i class="material-icons">airport_shuttle</i>Second
+                </div>
+                <div class="collapsible-body">
+                    <span>This is the Second Collapsible Area</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, et?</p>
+                </div>
+            </li>
+
+            <li>
+                <div class="collapsible-header grey darken-4">
+                    <i class="material-icons">adb</i> Third
+                </div>
+                <div class="collapsible-body">
+                    <span>This is the Third Collapsible Area</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, et?</p>
+                </div>
+            </li>
+        </ul>
+
+        <!--Expandable-->
+        <ul class="collapsible expandable white-text ">
+            <li class="active">    
+                <div class="collapsible-header grey darken-4">
+                    <i class="material-icons">contacts</i> Expandable 1
+                </div>
+                <div class="collapsible-body">
+                    <span>This is the First Collapsible Area</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, et?</p>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header grey darken-4">
+                    <i class="material-icons">comment</i> Expandable 2
+                </div>
+                <div class="collapsible-body">
+                    <span>This is the Second Collapsible Area</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, et?</p>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header grey darken-4">
+                    <i class="material-icons">dashboard </i> Expandable 3
+                </div>
+                <div class="collapsible-body">
+                    <span>This is the Third Collapsible Area</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, et?</p>
+                </div>
+            </li>
+        </ul>
+    
+
+        <!--Jquery CDN-->
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+        <!--Compile and minified Javascript-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    
+        <script>
+            $(document).ready(function(){
+                $('.collapsible').collapsible({
+                   
+                })
+                $('.expandable').collapsible({
+                   accordion: false
+                })
+            })
+            
+        </script>
+    </body>
+    </html>
