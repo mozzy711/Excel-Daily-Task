@@ -22,58 +22,70 @@
      </style>
      <title>Carousel</title>
 </head>
-<body class="grey darken-3">
-    <!-- Start of Container -->
-    <div class="container">
-    <!-- Carousel -->
-        <h1 class="amber-text text-lighten-2">Carousel</h1>
+<body class="blue-grey darken-4">
+   <div class="container">
+       <!-- Carousel -->
+       <h1 class="grey-text lighten-2 center">Carousel</h1>
 
-        <div class="carousel">
-            <a href="#one" class="carousel-item"><img src="Images/Img1.jpg"></a>
-            <a href="#two" class="carousel-item"><img src="Images/Img2.jpg"></a>
-            <a href="#three" class="carousel-item"><img src="Images/Img3.jpg"></a>
-            <a href="#four" class="carousel-item"><img src="Images/Img4.jpg"></a>
-            <a href="#five" class="carousel-item"><img src="Images/Img5.jpg"></a>
-        
-        </div>
+       <div class="carousel">
+           <a href="#one!" class="carousel-item"><img class = "materialboxed" src="https://picsum.photos/200/300?random=1"></a>
+           <a href="#two!" class="carousel-item"><img class = "materialboxed" src="https://picsum.photos/200/300?random=2"></a>
+           <a href="#three!" class="carousel-item"><img class = "materialboxed" src="https://picsum.photos/200/300?random=3"></a>
+           <a href="#four!" class="carousel-item"><img class = "materialboxed" src="https://picsum.photos/200/300?random=4"></a>
+           <a href="#five!" class="carousel-item"><img class = "materialboxed" src="https://picsum.photos/200/300?random=5"></a>
+       </div>
+   </div>
+   
+    
+
     <!-- Full Width Slider -->
         <br><br>
-        <h1 class="amber-text text-lighten-3">Full Width Carousel</h1>
+        <h1 class="grey-text lighten-2 center">Full Width Carousel</h1>
         <div class="carousel carousel-slider">
-            <a href="#one" class="carousel-item"><img src="Images/Img1.jpg"></a>
-            <a href="#two" class="carousel-item"><img src="Images/Img2.jpg"></a>
-            <a href="#three" class="carousel-item"><img src="Images/Img3.jpg"></a>
-            <a href="#four" class="carousel-item"><img src="Images/Img4.jpg"></a>
-            <a href="#five" class="carousel-item"><img src="Images/Img5.jpg"></a>
-        
+            <a href="#one!" class="carousel-item"><img class = "materialboxed" src="lorempics/lorempic1.jpg"></a>
+            <a href="#two!" class="carousel-item"><img class = "materialboxed" src="lorempics/lorempic2.jpg"></a>
+            <a href="#three!" class="carousel-item"><img class = "materialboxed" src="lorempics/lorempic3.jpg"></a>
+            <a href="#four!" class="carousel-item"><img class = "materialboxed" src="lorempics/lorempic4.jpg"></a>
+            <a href="#five!" class="carousel-item"><img class = "materialboxed" src="lorempics/lorempic5.jpg"></a>
         </div>
-    <!-- Special Options -->
+        
+
+    <div class="container">
+        <!-- Special Options -->
         <br></br>
-        <h1 class="amber-text">Special Options</h1>
+        <h1 class="grey-text lighten-2 center">Special Options</h1>
         <div class="carousel carousel-slider center">
+
             <div class="carousel-fixed-item center">
-                <a class="btn waves-effect white grey-text darken-text-2">Button</a>
+                <a class="btn waves-effect blue-grey white-text">Click Me</a>
             </div>
-            <div class="carousel-item red white-text" href="#one!">
+
+            <div class="carousel-item blue-grey darken-2" href="#one!">
                 <h2>First Panel</h2>
+                <img class = "materialboxed" src="lorempics/lorempic1.jpg"></a>
                 <p class="white-text">This is your first panel</p>
             </div>
-            <div class="carousel-item amber white-text" href="#two!">
+
+            <div class="carousel-item blue-grey darken-2 href="#two!">
                 <h2>Second Panel</h2>
+                <img class = "materialboxed" src="lorempics/lorempic2.jpg"></a>
                 <p class="white-text">This is your second panel</p>
             </div>
-            <div class="carousel-item green white-text" href="#three!">
+            <div class="carousel-item blue-grey darken-2" href="#three!">
                 <h2>Third Panel</h2>
                 <p class="white-text">This is your third panel</p>
             </div>
-            <div class="carousel-item blue white-text" href="#four!">
+            <div class="carousel-item blue-grey darken-2" href="#four!">
                 <h2>Fourth Panel</h2>
                 <p class="white-text">This is your fourth panel</p>
             </div>
         </div>
 
-     <!-- End of Container -->
+
     </div>
+    
+
+
 
     
     
@@ -99,6 +111,8 @@
             // setInterval(function(){
             //     $('.carousel').carousel('next');
             // }, 2000);
+
+            $('.materialboxed').materialbox();
         });
     </script>
     <div style="height: 1000px">
